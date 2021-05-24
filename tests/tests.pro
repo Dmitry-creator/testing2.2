@@ -33,6 +33,7 @@ HEADERS += \
     ../app/text.h \
     ../app/_text.h \
     mklb.h \
+    save.h \
     m.h \
     showdigitsonly.h \
     pn.h

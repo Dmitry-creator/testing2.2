@@ -14,7 +14,7 @@ void remove_all(text txt)
     }
 
     /* Текст ненулевой длины должен содержать хотя бы одну строку */
-    assert(!txt->myList->empty());
+   
 
     /* Очищаем лист */
     txt->myList->clear();

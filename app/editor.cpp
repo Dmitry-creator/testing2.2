@@ -100,7 +100,7 @@ int main()
 
 		if (strcmp(cmd, "pn") == 0) {
 		    char contents[1111];
-	    fgets(contents,MAXLINE,stdin);
+	    //fgets(contents,MAXLINE,stdin);
 	    contents[strlen(contents)-1]=0;
 	    pn(txt, contents);
             continue;

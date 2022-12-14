@@ -11,7 +11,7 @@
 #include <list>
 
 #include "text.h"
-
+/**ss*/
 typedef struct _node {
     char contents[MAXLINE + 1]; /**< содержимое строки текста */
     struct _node *previous;     /**< указатель на предыдущую строку */
